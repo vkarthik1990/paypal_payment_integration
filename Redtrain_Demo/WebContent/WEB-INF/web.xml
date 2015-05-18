@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Redtrain_Demo</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>FormController</display-name>
+		<servlet-name>FormController</servlet-name>
+		<servlet-class>
+			com.cloud.controller.FormController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginController</display-name>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>
+			com.cloud.controller.LoginController</servlet-class>
+	</servlet>
+
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>LogoutController</display-name>
+		<servlet-name>LogoutController</servlet-name>
+		<servlet-class>com.cloud.controller.LogoutController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>expresscheckout</display-name>
+		<servlet-name>expresscheckout</servlet-name>
+		<servlet-class>com.cloud.controller.expresscheckout</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>BillingInputs</display-name>
+		<servlet-name>BillingInputs</servlet-name>
+		<servlet-class>com.cloud.controller.BillingInputs</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>PaymentUpdate</display-name>
+		<servlet-name>PaymentUpdate</servlet-name>
+		<servlet-class>com.cloud.controller.PaymentUpdate</servlet-class>
+	</servlet>
+
+	
+	<servlet-mapping>
+		<servlet-name>FormController</servlet-name>
+		<url-pattern>/FormController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutController</servlet-name>
+		<url-pattern>/LogoutController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>expresscheckout</servlet-name>
+		<url-pattern>/expresscheckout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BillingInputs</servlet-name>
+		<url-pattern>/BillingInputs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PaymentUpdate</servlet-name>
+		<url-pattern>/PaymentUpdate</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		
+	</welcome-file-list>
+</web-app>
