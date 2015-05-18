@@ -1,0 +1,33 @@
+Username: vkarthik1990-facilitator_api1.gmail.com
+Password: T5L2UGKFV4BF6AZ9
+Signature: AFcWxV21C7fd0v3bYYYRCpSSRl31A9Es-cYJdrh7Nqo30Evq3FeghCy3
+
+Merchant mailid: vkarthik1990-facilitator@gmail.com
+Merchant Name: facilitator test
+Secure Merchant Account ID: LAJD3TEXTB5PY
+
+Merchant Bank Account
+Account number:22459020204
+Routing number:9020
+Credit card
+Credit card number: 4096363016447087
+Credit card type: Visa
+
+
+Buyer Bank Account
+Buyer MailId: vkarthik1990-buyer@gmail.com
+Account number: 4989357
+Routing number: 2413
+Credit card
+
+Credit card number: 4096363147664691
+Credit card type:Visa
+Expiration date: 5/2020
+PayPal
+Balance:
+9999.00 SGD
+
+Return URL : http://paypaldemo.mybluemix.net/jsp/orderconfirm.jsp
+
+Cancel URL : http://paypaldemo.mybluemix.net/jsp/transactionfailure.jsp
+
