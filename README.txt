@@ -11,7 +11,7 @@ SANDBOX MERCHANT & BUYER CREDENTIALS:
 
  
 Merchant mail ID: vkarthik1990-facilitator@gmail.com
-Password: K@rthik1990
+Password: test123
 
 Buyer Mail ID: vkarthik1990-buyer@gmail.com
-Password: K@rthik1990
+Password: test123
